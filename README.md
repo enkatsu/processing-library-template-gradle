@@ -1,4 +1,4 @@
-# processingLibraryTemplate
+# processing-library-template-gradle
 
 Processing library template using gradle.
 
