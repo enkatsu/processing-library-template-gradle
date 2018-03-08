@@ -42,7 +42,7 @@ gradle javadoc
 
 ## Installation
 
-Copy this directory into `processing/libraries` directory.
+Copy this directory into `processing/libraries`
 
 ## License
 
