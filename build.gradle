@@ -13,7 +13,6 @@ libsDirName='./'
 docsDirName='../reference'
 
 javadoc {
-    options.locale = 'en_US'
     options.charSet = 'UTF-8'
     options.encoding = 'UTF-8'
 }

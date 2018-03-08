@@ -2,17 +2,25 @@
 
 Processing library template using gradle.
 
-## Development 
+## Development
 
-### settings.gradle
+### Download template
+
+```bash
+mkdir YOUR_LIBRARY_NAME
+cd YOUR_LIBRARY_NAME
+git clone https://github.com/endoh0509/processing-library-template-gradle.git .
+``` 
+
+### Edit settings.gradle
 
 rootProject.name='YOUR_LIBRARY_NAME'
 
-### build.gradle
+### Edit build.gradle
 
 group 'YOUR_LIBRARY_NAME'
 
-### Library source code
+### Write library source code
 
 src/main/java/**
 
