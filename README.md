@@ -14,15 +14,19 @@ git clone https://github.com/endoh0509/processing-library-template-gradle.git .
 
 ### Edit settings.gradle
 
+```settings.gradle
 rootProject.name='YOUR_LIBRARY_NAME'
+```
 
 ### Edit build.gradle
 
+```build.gradle
 group 'YOUR_LIBRARY_NAME'
+```
 
 ### Write library source code
 
-src/main/java/**
+Edit `src/main/java/*`
 
 ## Build
 
