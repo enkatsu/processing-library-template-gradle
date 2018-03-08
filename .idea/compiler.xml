@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="processingLibraryTemplate_main" target="1.6" />
+      <module name="processingLibraryTemplate_test" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
