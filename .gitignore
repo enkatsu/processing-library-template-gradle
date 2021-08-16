@@ -3,6 +3,7 @@
 /lib
 /gradle
 .DS_Store
+/.idea
 
 # Created by .ignore support plugin (hsz.mobi)
 ### JetBrains template
