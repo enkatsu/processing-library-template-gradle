@@ -29,7 +29,9 @@ jobs:
         rm .gitignore
         rm build.gradle
     - name: Zip files
-      run: zip -r ${{ github.repository }} * 
+      run: |
+        REPO_NAME=${GITHUB_REPOSITORY#${GITHUB_REPOSITORY_OWNER}/}
+        zip -r $REPO_NAME * 
     - name: Release
       uses: softprops/action-gh-release@v2
       if: startsWith(github.ref, 'refs/tags/')
