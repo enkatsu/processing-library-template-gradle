@@ -34,6 +34,10 @@ Edit `src/main/java/*`
 ./gradlew -q
 ```
 
+### Build with GitHub Actions
+
+Push the tag to the GitHub repository. Then the Release workflow will run and the build result will be uploaded to the Releases page on GitHub.
+
 ## Generate JavaDoc
 
 ```bash
