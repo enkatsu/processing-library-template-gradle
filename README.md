@@ -31,13 +31,13 @@ Edit `src/main/java/*`
 ## Build
 
 ```bash
-gradle -q
+./gradlew -q
 ```
 
 ## Generate JavaDoc
 
 ```bash
-gradle javadoc
+./gradlew javadoc
 ```
 
 ## Installation
