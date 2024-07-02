@@ -1,9 +1,11 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
 group 'processingLibraryTemplate'
 version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-
-defaultTasks 'clean', 'build'
+defaultTasks 'clean', 'shadowJar'
 
 sourceCompatibility = 1.8
 
@@ -12,17 +14,28 @@ buildDir='library'
 libsDirName='./'
 docsDirName='../reference'
 
-javadoc {
-    options.charSet = 'UTF-8'
-    options.encoding = 'UTF-8'
-}
-
 repositories {
     mavenCentral()
 }
 
+wrapper {
+    gradleVersion = '8.8'
+}
+
+shadowJar {
+   archiveBaseName.set(rootProject.name)
+   archiveClassifier.set('')
+   archiveVersion.set('')
+}
+
 configurations {
     provided
+}
+
+javadoc {
+    options.charSet = 'UTF-8'
+    options.encoding = 'UTF-8'
+    classpath += configurations.provided
 }
 
 sourceSets {
