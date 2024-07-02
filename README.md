@@ -24,6 +24,10 @@ rootProject.name='YOUR_LIBRARY_NAME'
 group 'YOUR_LIBRARY_NAME'
 ```
 
+### Edit library.properties
+
+Please write to us with information about your library.
+
 ### Write library source code
 
 Edit `src/main/java/*`
