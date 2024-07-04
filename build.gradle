@@ -26,6 +26,10 @@ shadowJar {
    archiveBaseName.set(rootProject.name)
    archiveClassifier.set('')
    archiveVersion.set('')
+
+   dependencies {
+    exclude(dependency(group: 'org.processing', name: 'core'))
+  }
 }
 
 configurations {
@@ -45,6 +49,6 @@ sourceSets {
 }
 
 dependencies {
-    provided group: 'org.processing', name: 'core', version: '3.3.7'
+    implementation group: 'org.processing', name: 'core', version: '3.3.7'
     testImplementation group: 'junit', name: 'junit', version: '4.12'
 }
