@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is deprecated. Please use the latest Gradle template at [processing/processing-library-template](https://github.com/processing/processing-library-template).
+
 # processing-library-template-gradle
 
 Processing library template using gradle.
